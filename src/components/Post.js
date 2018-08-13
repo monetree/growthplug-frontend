@@ -53,10 +53,10 @@ this.onCloseModal();
     const { open } = this.state;
     return (
       <div>
-        <a onClick={this.onOpenModal} className="f4 link dim ba bw1 ph3 pv2 mb2 dib dark-blue shadow-5 pointer">Post Data</a>
+        <a onClick={this.onOpenModal} className="f4 link dim ba bw1 ph5 pv2 mb2 dib dark-blue shadow-5 pointer">Post Data</a>
 
         <Modal open={open} onClose={this.onCloseModal} center>
-          <div className="measure">
+          <div className='tc bg-light-green dib pa4 br3 ma3 grow bw2 shadow-5'>
            <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
              <legend className="f1 fw6 ph0 mh0">Register</legend>
              <div className="mt3">
